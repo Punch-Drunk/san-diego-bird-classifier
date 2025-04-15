@@ -6,7 +6,7 @@ This project aims to classify 530 bird species native to the San Diego County ar
 - Web scraping bird images via SerpAPI (Google/Bing)
 - Data cleaning, validation, and augmentation
 - Transfer learning with class-weighted training to handle imbalance
-- Model evaluation (Top-1: 77.16%, Top-5: 91.66%)
+- Model evaluation
 
 ### Key Features
 1. Data Pipeline
@@ -44,24 +44,24 @@ This project aims to classify 530 bird species native to the San Diego County ar
 ### Usage
 Link to model: https://huggingface.co/Punch-Drunk/san-diego-bird-classifier/tree/main
 ### Dataset
-Source: Images scraped from Google/Bing using species names.
+- Source: Images scraped from Google/Bing using species names.
 
-Size: 232,389 training images | 58,331 validation images.
+- Size: 232,389 training images | 58,331 validation images.
 
-Preprocessing: Resized to 256x256, normalized, augmented.
+- Preprocessing: Resized to 256x256, normalized, augmented.
 
 ### Results
 ![accuracy](model_performance.png)
 ![sample predictions](sample_predictions.png)
 
 ### Future Improvements
-Data Expansion: Include rare species and geographic variants.
-Model Tuning: Experiment with EfficientNetV2 or Vision Transformers.
-Deployment: Build a Flask API or mobile app for real-time classification.
+- Data Expansion: Include rare species and geographic variants.
+- Model Tuning: Experiment with EfficientNetV2 or Vision Transformers.
+- Deployment: Build a Flask API or mobile app for real-time classification.
 
 ### Acknowledgments
-SerpAPI for image scraping.
-TensorFlow Hub for pretrained EfficientNetB0.
-San Diego birding communities for species documentation.
+- SerpAPI for image scraping.
+- TensorFlow Hub for pretrained EfficientNetB0.
+- San Diego birding communities for species documentation.
 
 For questions or contributions, reach out to ashhal.s.usmani@gmail.com!
