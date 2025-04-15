@@ -42,7 +42,8 @@ This project aims to classify 530 bird species native to the San Diego County ar
 - Metrics tracked for validation performance and overfitting.
 
 ### Usage
-Link to model: https://huggingface.co/Punch-Drunk/san-diego-bird-classifier/tree/main
+- Link to model: https://huggingface.co/Punch-Drunk/san-diego-bird-classifier/tree/main
+- Included is an app python script to set up a local website that will allow users to upload, crop, and predict images
 ### Dataset
 - Source: Images scraped from Google/Bing using species names.
 
