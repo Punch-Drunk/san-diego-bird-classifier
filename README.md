@@ -69,7 +69,7 @@ This tool that can assist birdwatchers, researchers, and educators in identifyin
 
 ### Acknowledgments
 - SerpAPI for image scraping.
-- TensorFlow Hub for pretrained EfficientNetB0.
+- TensorFlow Hub for pretrained EfficientNetB0 and EfficientNetV2L
 - San Diego birding communities for species documentation.
 
 For questions or contributions, reach out to ashhal.s.usmani@gmail.com!
