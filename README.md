@@ -59,7 +59,7 @@ This project combines my interest in birding with deep learning, with the goal o
 - Preprocessing: Resized to 256x256, normalized, augmented.
 
 ### Results
-![accuracy](imaes/model_performance.png)
+![accuracy](images/model_performance.png)
 ![sample predictions](images/sample_predictions.png)
 
 ### Future Improvements
