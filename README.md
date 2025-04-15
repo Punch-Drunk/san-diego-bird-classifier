@@ -2,7 +2,7 @@
 ## 530-Class Deep Learning Model for Bird Species Identification
 
 ### Overview
-This project aims to classify 530 bird species native to the San Diego County area using a deep learning model based on TensorFlow and EfficientNetB0. The workflow includes:
+This project aims to classify 530 bird species native to the San Diego County area using a deep learning model based on TensorFlow and EfficientNetV2L. The workflow includes:
 - Web scraping bird images via SerpAPI (Google/Bing)
 - Data cleaning, validation, and augmentation
 - Transfer learning with class-weighted training to handle imbalance
