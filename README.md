@@ -8,9 +8,16 @@ This project aims to classify 530 bird species native to the San Diego County ar
 - Transfer learning with class-weighted training to handle imbalance
 - Model evaluation
 
+### Motivation
+Identifying bird species in the wild is a challenging task for both amateur birders and researchers. Manual identification is time-consuming, error-prone, and often requires expert knowledge. As someone who enjoys photographing and identifying birds on my hikes, I wanted to use advancements in machine learning to build a tool that would help me identify birds with more accuracy. This project aims to build a robust bird species classifier using transfer learning on the EfficientNetV2 architecture, trained on around 280,000 labeled bird images across the 530 species that can be observed in San Diego county.[^1].
+This project combines my interest in birding with deep learning, with the goal of creating a tool that can assist birdwatchers, researchers, and educators in identifying birds from photos more easily and accurately.
+
+[^1]: [San Diego County Bird Atlas](https://sdplantatlas.org/BirdAtlas/BirdPages.aspx)
+
+
 ### Key Features
 1. Data Pipeline
-- Image Scraping: Automated collection of 300 images per species using SerpAPI.
+- Image Scraping: Automated collection of roughly 500 images per species using SerpAPI.
 
 - Data Validation:
   - Filter non-bird images using pretrained EfficientNetB0.
@@ -18,7 +25,7 @@ This project aims to classify 530 bird species native to the San Diego County ar
   - Train/Validation Split: 80/20 split with directory structuring.
 
 2. Model Architecture
-- Base Model: EfficientNetB0 pretrained on ImageNet.
+- Base Model: EfficientNetV2L pretrained on ImageNet.
 
 - Custom Layers:
   - Data augmentation (flips, rotation, contrast, brightness).
