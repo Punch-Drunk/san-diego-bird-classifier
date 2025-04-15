@@ -42,7 +42,7 @@ Optimizer: Adam with learning rate 1e-4.
 Metrics tracked for validation performance and overfitting.
 
 ### Usage
-Link to model: https://huggingface.co/PunchDrunc/san-diego-bird-classifier/tree/main
+Link to model: https://huggingface.co/Punch-Drunk/san-diego-bird-classifier/tree/main
 ### Dataset
 Source: Images scraped from Google/Bing using species names.
 
