@@ -59,8 +59,8 @@ This project combines my interest in birding with deep learning, with the goal o
 - Preprocessing: Resized to 256x256, normalized, augmented.
 
 ### Results
-![accuracy](model_performance.png)
-![sample predictions](sample_predictions.png)
+![accuracy](imaes/model_performance.png)
+![sample predictions](images/sample_predictions.png)
 
 ### Future Improvements
 - Data Expansion: Include rare species and geographic variants.
