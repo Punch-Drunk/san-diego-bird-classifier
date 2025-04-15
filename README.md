@@ -46,7 +46,7 @@ This tool that can assist birdwatchers, researchers, and educators in identifyin
 
 - Top-5 Accuracy: 91.66%
 
-- Metrics tracked for validation performance and overfitting.
+- Metrics tracked for validating performance and overfitting.
 
 ### Usage
 - Link to model: https://huggingface.co/Punch-Drunk/san-diego-bird-classifier/tree/main
