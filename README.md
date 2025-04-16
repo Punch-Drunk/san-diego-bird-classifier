@@ -51,6 +51,7 @@ This tool that can assist birdwatchers, researchers, and educators in identifyin
 ### Usage
 - Link to model: https://huggingface.co/Punch-Drunk/san-diego-bird-classifier/tree/main
 - Included is an app python script to set up a local website that will allow users to upload, crop, and predict images
+![Bird App Example](images/birdapp1.png) ![Bird App Example 2](images/birdapp2.png)
 ### Dataset
 - Source: Images scraped from Google/Bing using species names.
 
