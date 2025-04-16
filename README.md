@@ -18,6 +18,7 @@ This tool that can assist birdwatchers, researchers, and educators in identifyin
 ### Key Features
 1. Data Pipeline
 - Image Scraping: Automated collection of roughly 500 images per species using SerpAPI.
+  - Two rounds of scraping done per species, one using it's scientifc name and one using it's common name
 
 - Data Validation:
   - Filter non-bird images using pretrained EfficientNetB0.
