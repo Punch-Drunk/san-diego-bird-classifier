@@ -67,7 +67,7 @@ This tool that can assist birdwatchers, researchers, and educators in identifyin
 ### Future Improvements
 - Data Expansion: Include rare species and geographic variants.
 - Model Tuning: Experiment with EfficientNetV2 or Vision Transformers.
-- Deployment: Build a Flask API or mobile app for real-time classification.
+- Deployment: Build a mobile app for real-time classification.
 
 ### Acknowledgments
 - SerpAPI for image scraping.
